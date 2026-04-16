@@ -61,3 +61,32 @@ button{
     font-size: 1rem;
     background: #f6f7ff;
 }
+
+#colors {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.images {
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+     
+}
+
+ 
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    margin: 0;
+}
+
+ 
