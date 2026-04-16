@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background: radial-gradient(circle at top left, #f6f7ff 0%, #dde3ff 40%, #c6d1ff 100%);
-    font-family: system-ui, sans-serif;
+    font-family:  "Roboto",sans-serif;
 }
 
 input[type=color] {
