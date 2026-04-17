@@ -6,7 +6,7 @@ const colorsContainer = document.getElementById("colors")
 colorBtn.addEventListener("click", () => {
     const currentColor = colorInput.value.slice(1)
     const selectedScheme = schemeSelector.value.toLowerCase()
-    const queryString = `?hex=${currentColor}&mode=${selectedScheme}&count=4`
+    const queryString = `?hex=${currentColor}&mode=${selectedScheme}&count=5`
 
     fetch(`https://www.thecolorapi.com/scheme${queryString}`)
         .then(res => {
@@ -20,7 +20,7 @@ colorBtn.addEventListener("click", () => {
                 
                 render += `
                 <div class="images">
-                 <img src="${color.image?.named}" alt="${color.hex.value}">
+                 <img src="${color.image.named}" alt="${color.hex.value}" class="color">
                  <h2>${color.hex.value}</h2>
                 </div>
                 
